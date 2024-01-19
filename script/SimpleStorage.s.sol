@@ -2,7 +2,7 @@
 pragma solidity ^0.8.23;
 
 import {Script, console2} from "forge-std/Script.sol";
-import { SimpleStorage } from "../src/SimpleStorage.sol";
+import {SimpleStorage} from "../src/SimpleStorage.sol";
 
 contract SimpleStorageScript is Script {
     function setUp() public {}
@@ -14,6 +14,5 @@ contract SimpleStorageScript is Script {
         vm.stopBroadcast();
 
         return simpleStorage;
-        
     }
 }
